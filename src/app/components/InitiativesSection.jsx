@@ -1,4 +1,5 @@
 import { Clock, Check, Users } from 'lucide-react';
+import Link from 'next/link';
 
 export default function InitiativesSection() {
 	const classDetails = [
@@ -36,7 +37,7 @@ export default function InitiativesSection() {
 	return (
 		<section className='w-full py-12 md:py-24 lg:py-32 bg-gray-50 dark:bg-gray-800'>
 			<div className='container mx-auto px-4 md:px-6'>
-				<h2 className='text-3xl font-bold tracking-tighter sm:text-4xl mb-12 bg-clip-text text-transparent bg-gradient-to-r from-gray-900 to-gray-600 dark:from-gray-100 dark:to-gray-400'>
+				<h2 className='text-3xl font-bold tracking-tighter sm:text-4xl mb-12 text-[#A27707]'>
 					Our Classes
 				</h2>
 
@@ -49,7 +50,7 @@ export default function InitiativesSection() {
 							<h3 className='text-2xl font-bold text-gray-900 dark:text-gray-100'>
 								Introductory Class
 							</h3>
-							<p className='text-lg text-orange-600 dark:text-orange-400 mb-2'>
+							<p className='text-lg text-[#A27707] mb-2'>
 								Free of Charge and Beginner Friendly
 							</p>
 							<div className='flex items-center text-gray-600 dark:text-gray-400 mb-4'>
@@ -91,7 +92,7 @@ export default function InitiativesSection() {
 									<h3 className='text-xl font-bold text-gray-900 dark:text-gray-100 mb-2'>
 										{classDetails[0].title}
 									</h3>
-									<p className='text-lg text-orange-600 dark:text-orange-400 mb-4'>
+									<p className='text-lg text-[#A27707] mb-4'>
 										{classDetails[0].subtitle}
 									</p>
 									<p className='text-3xl font-bold text-gray-900 dark:text-gray-100 mb-4'>
@@ -122,9 +123,18 @@ export default function InitiativesSection() {
 									))}
 								</ul>
 
-								<button className='mt-4 w-full px-4 py-2 bg-gradient-to-r from-orange-400 to-orange-600 text-white rounded-xl hover:from-orange-500 hover:to-orange-700 transition-colors'>
+								<Link
+									href='/initiatives'
+									className='mt-4 inline-flex h-10 items-center justify-center rounded-md 
+										bg-[#A27707] hover:bg-[#8B6506]
+										px-8 text-sm
+										font-medium text-white 
+										transition-colors
+										focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-[#A27707]
+									'
+								>
 									Get Started
-								</button>
+								</Link>
 							</div>
 						</div>
 					</div>
@@ -136,7 +146,7 @@ export default function InitiativesSection() {
 							<h3 className='text-2xl font-bold text-gray-900 dark:text-gray-100'>
 								CodePulse Network Coding Fundamentals
 							</h3>
-							<p className='text-lg text-orange-600 dark:text-orange-400 mb-2'>
+							<p className='text-lg text-[#A27707] mb-2'>
 								Free of Charge and Beginner Friendly
 							</p>
 							<div className='flex items-center text-gray-600 dark:text-gray-400 mb-4'>
@@ -185,7 +195,7 @@ export default function InitiativesSection() {
 									<h3 className='text-xl font-bold text-gray-900 dark:text-gray-100 mb-2'>
 										{classDetails[1].title}
 									</h3>
-									<p className='text-lg text-orange-600 dark:text-orange-400 mb-4'>
+									<p className='text-lg text-[#A27707] mb-4'>
 										{classDetails[1].subtitle}
 									</p>
 									<p className='text-3xl font-bold text-gray-900 dark:text-gray-100 mb-4'>
@@ -216,9 +226,18 @@ export default function InitiativesSection() {
 									))}
 								</ul>
 
-								<button className='mt-4 w-full px-4 py-2 bg-gradient-to-r from-orange-400 to-orange-600 text-white rounded-xl hover:from-orange-500 hover:to-orange-700 transition-colors'>
+								<Link
+									href='/initiatives'
+									className='mt-4 inline-flex h-10 items-center justify-center rounded-md 
+										bg-[#A27707] hover:bg-[#8B6506]
+										px-8 text-sm
+										font-medium text-white 
+										transition-colors
+										focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-[#A27707]
+									'
+								>
 									Get Started
-								</button>
+								</Link>
 							</div>
 						</div>
 					</div>

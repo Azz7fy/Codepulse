@@ -30,7 +30,7 @@ export default function LearnMoreSection() {
 			<div className='container px-4 md:px-6 mx-auto max-w-4xl'>
 				{/* Mission Section */}
 				<div className='mb-20 text-center'>
-					<h2 className='text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-center mb-16 md:mb-20 bg-clip-text text-transparent bg-gradient-to-r from-gray-900 to-gray-600 dark:from-gray-100 dark:to-gray-400 leading-tight pb-1'>
+					<h2 className='text-3xl font-bold tracking-tighter sm:text-4xl text-[#A27707]'>
 						Our Mission
 					</h2>
 					<h3 className='text-2xl font-semibold mb-4 text-gray-900 dark:text-gray-100'>
@@ -49,7 +49,7 @@ export default function LearnMoreSection() {
 					<div className='grid grid-cols-1 md:grid-cols-2 gap-8'>
 						{coreValues.map((value, index) => (
 							<div key={index} className='flex items-start space-x-4'>
-								<value.icon className='w-6 h-6 text-orange-500 mt-1' />
+								<value.icon className='w-6 h-6 text-[#A27707] mt-1' />
 								<div>
 									<h3 className='font-semibold text-xl mb-2 text-gray-900 dark:text-gray-100'>
 										{value.title}
@@ -80,11 +80,11 @@ export default function LearnMoreSection() {
 					</h2>
 					<ul className='space-y-4 text-lg text-gray-600 dark:text-gray-400'>
 						<li className='flex items-start'>
-							<span className='text-orange-500 mr-2'>•</span>
+							<span className='text-[#A27707] mr-2'>•</span>
 							<span><strong>Introductory Coding Classes:</strong> Our classes introduce students to the basics of coding, helping them develop foundational skills in a supportive and engaging environment.</span>
 						</li>
 						<li className='flex items-start'>
-							<span className='text-orange-500 mr-2'>•</span>
+							<span className='text-[#A27707] mr-2'>•</span>
 							<span><strong>Community Outreach:</strong> We actively engage with local communities to promote the importance of coding education and provide resources to underserved schools and organizations.</span>
 						</li>
 					</ul>
@@ -100,7 +100,7 @@ export default function LearnMoreSection() {
 					</p>
 					<Link
 						href='/get-involved'
-						className='inline-flex h-12 items-center justify-center rounded-xl bg-gradient-to-r from-orange-400 to-orange-600 px-8 text-lg font-medium text-white shadow-sm transition-colors hover:from-orange-500 hover:to-orange-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-orange-500'
+						className='inline-flex h-12 items-center justify-center rounded-xl bg-[#A27707] px-8 text-lg font-medium text-white shadow-sm transition-colors hover:from-orange-500 hover:to-orange-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-orange-500'
 					>
 						Learn more about how to get involved
 					</Link>

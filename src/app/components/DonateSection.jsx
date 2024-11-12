@@ -15,7 +15,7 @@ export default function DonateSection() {
 				<div className='bg-white dark:bg-gray-900 rounded-xl shadow-lg p-8 md:p-12'>
 					<div className='prose prose-lg dark:prose-invert mx-auto'>
 						<div className='text-center space-y-6'>
-							<div className='bg-gradient-to-r from-orange-400 to-orange-600 text-white rounded-xl p-8 mb-8'>
+							<div className='bg-[#A27707] text-white rounded-xl p-8 mb-8'>
 								<p className='text-xl md:text-2xl font-medium'>
 									We appreciate your support!
 								</p>
@@ -27,7 +27,7 @@ export default function DonateSection() {
 
 							<a
 								href='mailto:codepulsenetwork@gmail.com'
-								className='inline-block text-xl md:text-2xl font-medium text-orange-500 hover:text-orange-600 dark:text-orange-400 dark:hover:text-orange-500 transition-colors'
+								className='inline-block text-xl md:text-2xl font-medium text-[#A27707] hover:text-[#8B6506] transition-colors'
 							>
 								codepulsenetwork@gmail.com
 							</a>
